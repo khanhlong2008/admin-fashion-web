@@ -1,0 +1,43 @@
+.profile-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.profile-form{
+    display:flex;
+    flex-direction: column;
+    justify-content: center
+}
+.profile-input{
+    width:100%;
+    /* display:flex;
+    flex-direction: row; */
+    margin:10px;
+    /* justify-content: start; */
+    /* padding: auto; */
+}
+.profile-input label{
+    margin:10px;
+    width:100px
+}
+.profile-input select{
+    width:100px;
+    background-color: var(--main-bg);    
+    color: var(--txt-color);
+    width: 60%;
+    border-radius: var(--border-radius);
+    outline: 0;
+
+}
+
+.profile-input  input{
+    outline: 0;
+    width: 60%
+}
+
+.btn{
+    border-radius:var(--border-radius);
+    background-color: var(--main-bg);    
+    color: var(--txt-color);
+
+}

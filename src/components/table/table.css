@@ -1,0 +1,101 @@
+.table-wrapper {
+  overflow-y: auto;
+}
+
+table {
+  width: 100%;
+  min-width: 400px;
+  border-spacing: 0;
+}
+
+thead {
+  background-color: var(--second-bg);
+}
+
+tr {
+  text-align: left;
+}
+
+th,
+td {
+  text-transform: capitalize;
+  padding: 15px 10px;
+}
+
+tbody > tr:hover {
+  background-color: var(--main-color);
+  color: var(--txt-white);
+}
+input {
+  color: var(--txt-color);
+}
+.table__pagination {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.table__pagination-item ~ .table__pagination-item {
+  margin-left: 10px;
+}
+
+.table__pagination-item {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.table__pagination-item.active,
+.table__pagination-item.active:hover {
+  background-color: var(--main-color);
+  color: var(--txt-white);
+  font-weight: 600;
+}
+
+.table__pagination-item:hover {
+  color: var(--txt-white);
+  background-color: var(--second-color);
+}
+
+select {
+  padding: 10px 20px;
+}
+
+input#date {
+  padding: 10px 20px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.profile-input .container::before {
+  display: none;
+}
+
+.profile-input .container {
+  min-height: 0;
+  width: 60%;
+}
+
+.profile-input
+  .ant-select:not(.ant-select-customize-input)
+  .ant-select-selector {
+  border-radius: var(--border-radius);
+  background-color: transparent;
+  border: 2px solid #8a88817d;
+  height: auto;
+}

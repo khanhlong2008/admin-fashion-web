@@ -1,0 +1,36 @@
+
+.profile-form{
+    display:flex;
+    flex-direction: column;
+}
+.profile-input{
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    margin:10px;
+    justify-content: center;
+    padding: auto;
+}
+.profile-input label{
+    margin:10px
+}
+.profile-input  input{
+    border-radius:var(--border-radius);
+    width: 50%;
+    background-color: transparent;
+    border: 2px solid #8a88817d;
+    padding: 10px 60px 10px 20px;
+}
+.profile-btn{
+    display:flex;
+    justify-content:end
+}
+.btn{
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    color: var(--txt-color);
+    border-radius:var(--border-radius);
+    background-color: var(--main-bg);
+
+}

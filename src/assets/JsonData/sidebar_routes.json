@@ -1,0 +1,22 @@
+[
+    {
+        "display_name": "Dashboard",
+        "route": "/dashboard",
+        "icon": "bx bx-category-alt"
+    },
+    {
+        "display_name": "Products",
+        "route": "/products",
+        "icon": "bx bx-package"
+    },
+    {
+        "display_name": "Flash Sale",
+        "route": "/flashsale",
+        "icon": "bx bx-gift"
+    },
+    {
+        "display_name": "Proflie",
+        "route": "/profile",
+        "icon": "bx bx-user-pin"
+    }
+]
